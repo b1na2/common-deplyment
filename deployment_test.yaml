@@ -13,7 +13,7 @@ spec:
         app: spring-boot
     spec:
       imagePullSecrets:
-        - name: towercred
+        - name: harborkey1
       containers:
         - name: spring-boot
           image: szharbor.lizhi.fm/lizhi/spring-boot:v2024021802
