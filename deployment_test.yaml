@@ -4,7 +4,7 @@ metadata:
   name: spring-boot
   namespace: kubernetes-actions-0-2
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
       app: spring-boot
@@ -23,7 +23,7 @@ spec:
           resources:
             requests:
               memory: "2048Mi"
-              cpu: "2000M"
+              cpu: "500M"
             limits:
               memory: "2048Mi"
-              cpu: "2000M"
+              cpu: "500M"
