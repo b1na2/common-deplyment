@@ -14,7 +14,7 @@ spec:
         app: spring-boot
     spec:
       imagePullSecrets:
-        - name: harborkey-plus
+        - name: harborkey-plus-1
       containers:
         - name: spring-boot
           image: szharbor.lizhi.fm/lizhi/spring-boot:v2024021802
